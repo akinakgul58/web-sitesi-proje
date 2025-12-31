@@ -1,6 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #7a7777;
+    
+    /* Arka plan resmi ayarları */
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); /* Manzara resmi linki */
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    
     margin: 0;
     padding: 0;
 }
@@ -11,23 +18,28 @@ nav {
     overflow: hidden;
     padding: 15px;
     text-align: center;
+    
+    opacity: 0.95; 
 }
 
 nav a {
-    color: black;
+    color: black; 
     text-decoration: none;
     padding: 14px 20px;
     font-size: 18px;
+    font-weight: bold; 
 }
 
 /* İçerik Kutusu Tasarımı */
 .kutu {
     background-color: #FDB912;
     width: 80%;
-    margin: 40px auto; 
+    margin: 60px auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(90, 107, 65, 0.1);
+    
+    
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); 
 }
 
 h1 {
